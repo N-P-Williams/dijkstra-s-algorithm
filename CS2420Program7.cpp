@@ -9,12 +9,7 @@
 #include <algorithm>
 using namespace std;
 
-void header()
-{
-	cout << " Nicholas Williams" << endl;
-	cout << " CS 2420 section 001" << endl;
-	cout << "Program 7 - Graphs" << endl;
-}
+
 struct alphabetOrder
 {
 	string airportName;
@@ -38,7 +33,7 @@ int main()
 	Graph myGraph;
 	int i, j;
 
-	header();
+	
 
 	for (int i = 0; i <= size - 1; i++)
 	{
